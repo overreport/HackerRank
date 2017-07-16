@@ -8,7 +8,7 @@
 ### Tracks
 Core CS
 ```sh
-Algorithms          ---> [96 Points]
+Algorithms          ---> [296 Points]
 Data Structures     ---> [0 Points]
 Mathematics         ---> [0 Points]
 ```
