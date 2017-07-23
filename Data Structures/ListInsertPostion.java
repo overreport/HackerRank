@@ -23,16 +23,16 @@ Node InsertNth(Node head, int data, int position) {
 
     else {
         int ctr=0;
-        Node temp1 = head;
+        Node track1 = head;
         
-        while(ctr < position-1 && temp1.next!=null) {
-            temp1=temp1.next;
+        while(ctr < position-1 && track1.next!=null) {
+            track1=track1.next;
             ctr++;
         }
 
-        Node temp2= temp1.next; 
-        temp1.next=n; // better temp1's pointer is assinged n;
-        n.next=temp2; // n's pointer is assinged temp2 
+        Node track2= track1.next; 
+        track1.next=n; // track1's Pointer asigned ---> n
+        n.next=track2; // n's Pointer assigned ---> track2 
         return head;
     }
 }
