@@ -9,7 +9,7 @@
 Core CS
 ```sh
 Algorithms          ---> [296 Points]
-Data Structures     ---> [0 Points]
+Data Structures     ---> [30 Points]
 Mathematics         ---> [0 Points]
 ```
 
